@@ -1,0 +1,39 @@
+.musicList {
+    text-align: center;
+    margin: 100px;
+}
+
+.music{
+    font-family: 'Nunito', sans-serif;
+    background: rgb(38, 44, 80);
+    color: #FFF;
+    width: 400px;
+    margin: 0 auto;
+}
+.music-list{
+    list-style-type:none;
+}
+
+.music-list-item{
+    list-style-type: none;
+    padding: 5px 10px;
+    border-bottom: 1px solid #DDD;
+    cursor: pointer;
+}
+
+.list-thumb{
+    display:inline-block;
+    float: left;
+}
+.song-img{
+    width: 60px;
+    height: 60px;
+}
+.song  h3 {
+    text-align: left;
+    /* font-size: 1.1em; */
+    margin-bottom: 3px;
+}
+.song p {
+    text-align: left;
+}

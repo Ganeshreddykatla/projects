@@ -1,0 +1,21 @@
+.addrow{
+    text-align: center;
+}
+
+.addrow-wrapper {
+    text-align: center;
+    margin: 100px 270px;
+}
+.addrow-btn {
+    position: absolute;
+    left: 295px;
+    margin: 16px 0px 0px 0px;
+}
+.back-btn {
+    background: #80808040;
+    border: none;
+    margin: 40px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+}

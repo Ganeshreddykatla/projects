@@ -1,0 +1,94 @@
+.muscilist{
+    margin: 100px ;
+}
+.muisc-itemslist{
+
+    list-style-type: none;
+}
+.playsong{
+    color: green;
+    text-transform: uppercase;
+}
+
+.btn-wrapper {
+    background: black;
+    border-radius: 4px;
+    height: 120px;
+    padding: 90px 0px 0px 0px;
+    width: 280px;
+    text-align: center;
+}
+
+.backward-btn {
+    background: black;
+    width: 60px;
+    border: none;
+    border-radius: 4px;
+}
+
+.backward-btn:focus {
+    outline: none;
+}
+.forward-btn {
+    width: 60px;
+    background: black;
+    border: none;
+    border-radius: 4px;
+}
+.forward-btn:focus {
+    outline: none;
+}
+
+.toggle-btn {
+    height: 35px;
+    width: 40px;
+    background: black;
+    border: none;
+}
+.toggle-btn:focus {
+    outline: none;
+}
+i.fa.fa-step-backward {
+    color: white;
+}
+
+i.fa.fa-step-forward {
+    color: white;
+}
+.toggle-btn i.fa.fa-pause-circle-o {
+    color: white;
+    /* font-size: 49px; */
+}
+.toggle-btn i.fa.fa-play-circle {
+    color: white;
+}
+
+    .toggle-btn-list {
+        width: 30px;
+        padding: 3px;
+        height: 28px;
+        border-radius: 4px;
+        background: black;
+        border: none;
+    }
+.toggle-btn-list:focus {
+    outline: none;
+}
+i.fa.fa-play-circle {
+    color: white;
+}
+i.fa.fa-pause-circle-o {
+    color: white;
+}
+
+.toggle-icon-span {
+    margin: 10px;
+}
+.progress {
+    width: 1px;
+    height: 3px;
+    background: #006B5A;
+    transition: width .1s linear;
+  }
+
+

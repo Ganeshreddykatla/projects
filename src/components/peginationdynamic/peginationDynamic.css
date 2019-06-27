@@ -1,0 +1,37 @@
+.pagenation-container {
+    margin: 50px 0px 0px 0px;
+    position: fixed;
+}
+.personList{
+    list-style-type: none;
+}
+.pageNumberList{
+    display: flex;
+    list-style-type: none
+}
+.personList-wrapper {
+    margin-left: 300px;
+}
+.pageNumberList .personList-item{
+    margin-top: 10px;
+    font-weight: 450;
+    color: #595959;
+
+}
+.pageNumberList-wrapper {
+    margin: 250px 200px 200px 200px;
+}
+.pageNumberList-Item{
+    width: 28px;
+    background: red;
+    /* padding-left: 80px; */
+    /* background: red; */
+    margin-left: 80px;
+    margin: 0px 0px 0px 40px;
+    height: 23px;
+    text-align: center;
+    /* pading: 15px; */
+    padding-top: 7px;
+    color: white;
+    border-radius: 4px;
+}

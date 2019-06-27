@@ -1,0 +1,110 @@
+
+ .dropdown{
+    text-align: center;
+    margin:50px;
+}
+
+.dropdown-input { 
+    margin: auto;
+    height: 54px;
+    position: relative;
+    width: 400px;
+    height: 80px;
+    }
+
+.dropdown-input .input-wrapper { 
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+        }
+
+.input-wrapper:hover {
+cursor: pointer; 
+}
+
+.input-wrapper:focus{
+    outline: none;
+    }
+    
+.newcity-list{
+    display: flex;
+    list-style-type: none;
+    position: absolute; 
+    top: 0; 
+    left:0 ;
+    height: 20px;
+    width: 20px;
+    }
+
+    .newcity-list-item{
+    padding: 0px 0px 0px 17px;  
+    margin-top: 14px !important;
+
+    }
+
+               
+.dropdown-input .drop-img  {
+    position: absolute; 
+    top: 12px; 
+    right: 10px ;
+    height: 20px;
+    width: 20px;
+    }
+
+.selectiveshide {
+    height: 10px; 
+    top: 32px;
+     display: none;
+     transition: all 5sec;
+     }
+
+.selectivesshow {
+    height: 10px; 
+    display:block;
+    }
+
+.dropdown-list {
+    margin: 0px 0px 0px 523px;
+    list-style-type: none;
+    text-align: center;
+    }
+
+.list-item {
+    background: gray;
+    width: 200px;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-size: 20px; 
+}
+
+.list-item:hover{
+    background-color: yellow;
+    color: black;
+}
+
+  .btn-remove {
+    position: absolute;
+    top: 6px;
+    width: 14px;
+    height: 15px;
+    border-radius: 8px;
+    background: red;
+    border: none;
+    transform: rotate(45deg);
+    border: none;
+    transform: rotate(45deg);
+}
+
+.btn-remove:focus{
+    outline: none;
+    }
